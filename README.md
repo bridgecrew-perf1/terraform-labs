@@ -1,2 +1,2 @@
-# terraform-labs
+# Terraform-Labs
 Terraform Labs
