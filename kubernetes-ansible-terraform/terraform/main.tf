@@ -2,12 +2,12 @@ terraform {
   required_providers {
     kubernetes = {
       source = "hashicorp/kubernetes"
-      version = "1.13.3"
+      version = "2.6.1"
     }
   }
   backend "kubernetes" {
     namespace = "tf-backend-state"
-    secret_suffix = "tfstate"
+    secret_suffix = "state"
     load_config_file = true
   }
 }
