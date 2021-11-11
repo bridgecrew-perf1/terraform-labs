@@ -1,0 +1,9 @@
+---
+ansible_connection: ssh
+ansible_user: ubuntu
+ansible_python_interpreter: 'python3'
+
+kube_user: "ubuntu"
+kube_home: "/home/ubuntu"
+
+token_command: "/tmp/kubernetes_join_command"
